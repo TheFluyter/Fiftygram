@@ -10,25 +10,40 @@
         android:layout_height="wrap_content"
         android:id="@+id/image_view" />
     <Button
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Choose photo"
         android:id="@+id/button_choose"
         android:onClick="choosePhoto" />
     <Button
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Sepia"
         android:onClick="applySepia" />
     <Button
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Toon"
         android:onClick="applyToon" />
     <Button
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Sketch"
         android:onClick="applySketch" />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Kuwahara"
+        android:onClick="applyKuwahara" />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Roundend Corners"
+        android:onClick="applyRoundedCorner" />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Save photo"
+        android:onClick="savePhoto" />
   </LinearLayout>
 </ScrollView>
